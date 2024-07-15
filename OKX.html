@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Wallet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="MOMOwallet.svg"Logo>
+            </div>
+                <ul>
+                    <li class="item1"><a href="#">主頁</a></li>
+                    <li class="item2"><a href="#">遊戲</a></li>
+                    <li class="item3"><a href="#">APP</a></li>
+                    <li class="item4"><a href="#">交易</a></li>
+                    <li class="item5"><a href="#">更多<span>&#9660;</span></a></li>
+                </ul>
+                <button class="connect-button" onclick="openWalletModal()"><i class="fa-solid fa-wallet"></i>連接錢包</button>
+        
+        </header>
+        <section class="hero">
+            <img src="DALL·E 2024-06-15 13.56.15 - A futuristic pixel art theme with a blue and purple color scheme. The background includes a digital cityscape with tall skyscrapers and advanced struc.jpg" alt="Hero Image">
+            <div class="hero-overlay">
+                <h1>Discover the Future of Crypto</h1>
+                <p>Secure. Reliable. Fast.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+        <div class="marquee-wrapper">
+            <marquee class="marquee">BTC/USDT (+5.50%) TONCOIN/USDT (+5.89%) NOT/USDT (+1.27%) TRX/USDT (+0.10%) SOL/USDT (-2.37%)</marquee>
+        </div>
+        <section class="wallet-info">
+            <div class="wallet-content">
+               <div class="Mm1">
+                    <h1 data-v-c9c5b840="" class="Hm1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MomoAI：創新的人工智慧驅動的社交遊戲成長平台。</font></font></h1>
+                    <div class="m1">
+                    <strong>01</strong>
+                    <p class="Pm1">建構面向行動社交Web3遊戲的平台</p>
+                    </div>
+                    <div class="m2">
+                    <strong>02</strong>
+                    <p class="Pm2">打造永續的遊戲生態系統</p>
+                    </div>
+                    <div class="m3">
+                    <strong>03</strong>
+                    <p class="Pm3">簡化Web3遊戲的存取流程</p>
+                    </div>
+                </div>
+
+                <div class="m4">
+                    <p class="Pm4">MOMOAI專注於打造輕量級遊戲產品矩陣，旨在降低使用者的參與障礙，同時確保遊戲的品質和趣味性。</p>
+                    <p data-v-c9c5b840="" class="Pm5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同時，MOMOAI作為一個擁抱AI技術的遊戲平台，透過為遊戲開發者提供各種整合AI-Agent的SDK，開發者可以更加專注於遊戲的創意和設計，並將技術實現的複雜性交換AI來處理，這將使遊戲產業帶來了革命性的變化，不僅提升了玩家的遊戲體驗，也為遊戲開發者開闢了新的可能性。</font></font></p>
+                </div>
+            </div>
+        </section>
+        <section class="details">
+            <h2>我們注重改善現狀</h2>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-user-group"></i>
+                    <h3>1.提升用戶友好性</h3>
+                    <p>簡化錢包的設置和使用流程，提供直觀的用戶界面和操作指南，減少玩家的學習曲線。
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-shield"></i>
+                    <h3>2.強化安全措施</h3>
+                    <p>增加多重簽名、多因素驗證等安全功能，提升私鑰管理和存儲的安全性，防止資產被盜。</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-wallet"></i>
+                    <h3>3.提高相容性</h3>
+                    <p>開發支持多種區塊鏈和多個遊戲平台的跨鏈錢包，方便玩家在不同遊戲和區塊鏈之間轉移資產。</p>
+                </li>
+            </ul>
+            <button>發現更多</button>
+        </section>
+        <footer>
+            <img src="MOMOwallet.svg" alt="Logo" class="footer-logo">
+            <div class="footer-links">
+                <a href="#">Platform</a>
+                <a href="#">Support</a>
+                <a href="#">Company</a>
+                <a href="#">Terms</a>
+            </div>
+            <p>&copy; 2024 Crypto Wallet. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Modal for Wallet Connection -->
+    <div id="walletModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeWalletModal()">&times;</span>
+            <h2>Connect Your Wallet</h2>
+            <p>Select a wallet to connect.</p>
+            <!-- Add wallet connection options here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
